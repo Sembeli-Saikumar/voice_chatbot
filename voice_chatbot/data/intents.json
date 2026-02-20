@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey"],
+      "responses": ["Hello! How can I help you?"]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["what is the fee", "college fees"],
+      "responses": ["The college fee is fifty thousand rupees per year."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "exit"],
+      "responses": ["Goodbye! Have a nice day."]
+    }
+  ]
+}
